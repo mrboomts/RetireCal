@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RetireCal Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">RetireCal</div>
+  <div class="dashboard" id="dashboard">
+    <div class="card red" data-id="1">
+      ❤️ สุขภาพ
+      <button class="edit-btn">แก้ไข</button>
+      <div class="resize-panel hidden">
+        <label>ความกว้าง (px): <input type="number" class="width-input" value="250" /></label><br/>
+        <label>ความสูง (px): <input type="number" class="height-input" value="150" /></label><br/>
+        <button class="save-btn">บันทึก</button>
+      </div>
+    </div>
+    <div class="card yellow" data-id="2">
+      💰 รายได้
+      <button class="edit-btn">แก้ไข</button>
+      <div class="resize-panel hidden">
+        <label>ความกว้าง (px): <input type="number" class="width-input" value="250" /></label><br/>
+        <label>ความสูง (px): <input type="number" class="height-input" value="150" /></label><br/>
+        <button class="save-btn">บันทึก</button>
+      </div>
+    </div>
+    <div class="card green" data-id="3">
+      🌱 การลงทุน
+      <button class="edit-btn">แก้ไข</button>
+      <div class="resize-panel hidden">
+        <label>ความกว้าง (px): <input type="number" class="width-input" value="250" /></label><br/>
+        <label>ความสูง (px): <input type="number" class="height-input" value="150" /></label><br/>
+        <button class="save-btn">บันทึก</button>
+      </div>
+    </div>
+    <div class="card orange" data-id="4">
+      📅 เป้าหมายเกษียณ
+      <button class="edit-btn">แก้ไข</button>
+      <div class="resize-panel hidden">
+        <label>ความกว้าง (px): <input type="number" class="width-input" value="250" /></label><br/>
+        <label>ความสูง (px): <input type="number" class="height-input" value="150" /></label><br/>
+        <button class="save-btn">บันทึก</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
